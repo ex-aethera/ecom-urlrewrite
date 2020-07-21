@@ -1,0 +1,32 @@
+{
+  "name" : "ecom/url-rewrite-bundle",
+  "type" : "symfony-bundle",
+  "description": "URL rewriting bundle for ecom e-commerce",
+  "homepage": "https://github.com/ex-aethera/ecom",
+  "license": "GNU GGPL-3.0-only",
+  "authors": [
+    {
+      "name": "Stéphane Hennebert",
+      "email": "stephane.hennebert@ex-aethera.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "require-dev": {
+    "symfony/security-bundle": ">=5.1.0",
+    "symfony/framework-bundle": ">=5.1.0",
+    "doctrine/orm": "^2.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ecom\\UrlRewriteBundle\\" : ""
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias" : {
+      "dev-master" : "1.0.x-dev"
+    }
+  }
+}
